@@ -8,7 +8,7 @@ class AppBootHook {
   }
 
   async didLoad() {
-    if (this.app.config.clearSequelize.app) sequelize(this.app);
+    if (this.app.config.sequelize.app) sequelize(this.app);
   }
 
   async willReady() {

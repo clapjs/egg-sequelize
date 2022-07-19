@@ -1,4 +1,4 @@
-# egg-clap-sequelize
+# egg-sequelize
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-clap-sequelize.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-clap-sequelize
-[travis-image]: https://img.shields.io/travis/eggjs/egg-clap-sequelize.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-clap-sequelize
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-clap-sequelize.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-clap-sequelize?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-clap-sequelize.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-clap-sequelize
-[snyk-image]: https://snyk.io/test/npm/egg-clap-sequelize/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-clap-sequelize
-[download-image]: https://img.shields.io/npm/dm/egg-clap-sequelize.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-clap-sequelize
+[npm-image]: https://img.shields.io/npm/v/egg-sequelize.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-sequelize
+[travis-image]: https://img.shields.io/travis/eggjs/egg-sequelize.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-sequelize
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-sequelize.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-sequelize?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-sequelize.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-sequelize
+[snyk-image]: https://snyk.io/test/npm/egg-sequelize/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-sequelize
+[download-image]: https://img.shields.io/npm/dm/egg-sequelize.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-sequelize
 
 <!--
 Description here.
@@ -28,7 +28,7 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-clap-sequelize 版本 | egg 1.x
+egg-sequelize 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -47,9 +47,9 @@ egg-clap-sequelize 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.clapSequelize = {
+exports.sequelize = {
   enable: true,
-  package: 'egg-clap-sequelize',
+  package: 'egg-sequelize',
 };
 ```
 

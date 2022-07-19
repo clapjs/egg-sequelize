@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * egg-clap-sequelize default config
- * @member Config#clapSequelize
+ * egg-sequelize default config
+ * @member Config#sequelize
  * @property {String} SOME_KEY - some description
  */
-exports.clapSequelize = {
+exports.sequelize = {
     // client:{
     //   singleton: 'model', // models in `app/${instance}`
     //   singletonSrc: ['core/model'],

@@ -1,9 +1,9 @@
 {
-  "name": "egg-clap-sequelize",
+  "name": "@clapjs/egg-sequelize",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
-    "name": "clapSequelize"
+    "name": "sequelize"
   },
   "keywords": [
     "egg",
@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-clap-sequelize.git"
+    "url": "git+https://github.com/eggjs/egg-sequelize.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-clap-sequelize#readme",
+  "homepage": "https://github.com/eggjs/egg-sequelize#readme",
   "author": "",
   "license": "MIT"
 }
